@@ -21,9 +21,6 @@ public class User{
     @Column(name = "nickName", nullable=false)
     private String nickName;
 
-    @Column(name = "nicksName", nullable=false)
-    private String nicksName;
-
     @Column(name = "userName", nullable=false)
     private String userName;
 
