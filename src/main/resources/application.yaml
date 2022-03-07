@@ -1,0 +1,19 @@
+# properteis --> yaml
+
+server:
+  port: 8080
+
+spring:
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate: 
+        show_sql: false 
+    
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/zari_RestApi?characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+    username: jsr
+    password: qwer1234!
