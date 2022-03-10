@@ -3,6 +3,5 @@ package com.jsr.restapi.service;
 import org.springframework.stereotype.Service;
 
 @Service
-public class BoardServiceImpl implements BoardService {
-
+public class UserServiceImpl implements UserService{
 }
