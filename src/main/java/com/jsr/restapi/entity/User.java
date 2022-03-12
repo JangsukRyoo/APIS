@@ -29,4 +29,5 @@ public class User{
 
     @Column(name = "quit")
     private boolean quit;
+
 }

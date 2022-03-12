@@ -19,5 +19,6 @@ public class BoardLike{
     private Long boardId;
 
     @Column(name = "userId", nullable=false)
-    private Long usrId;
+    private Long userId;
+
 }
