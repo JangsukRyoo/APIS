@@ -31,7 +31,7 @@ public class BoardController {
     @Autowired
     UserService userService;
 
-    // 해더값을 통한 권한 체크
+    // 해더값을 통한 권한 체크성
     @RequestMapping(value="/authcheck", method= RequestMethod.POST)
     public Boolean authCheck(
             @RequestHeader(value="Authorization", defaultValue = "outUser") String accountType) {
