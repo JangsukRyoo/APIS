@@ -47,9 +47,10 @@ public class BoardController {
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         Board newBoard = new Board();
 
-        Optional<User> user =  userService.findById(Long.parseLong(accountType.split(" ")[1]));
+        Optional<User> optUser =  userService.findById(Long.parseLong(accountType.split(" ")[1]));
+        User user = optUser.get();
 
-        if(!user.isPresent()){
+        if(!optUser.isPresent()){
             throw new Exception();
         }else {
             //외부 사용자 체크
@@ -57,7 +58,7 @@ public class BoardController {
                 return new ResponseEntity(HttpStatus.BAD_REQUEST);
             } else {
                 newBoard.setTitle(board.getTitle());
-                newBoard.setUserId(user.get());
+                newBoard.setUserId(user);
                 newBoard.setWriter(board.getWriter());
                 newBoard.setAccountType(convertAccountType(accountType));
                 newBoard.setContent(board.getContent());

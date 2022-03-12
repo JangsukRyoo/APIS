@@ -35,7 +35,6 @@ public class BoardLikeController {
            Optional<BoardLike> optLikeCheck = boardLikeService.findByBoardIdAndUserId(boardId, userId);
            Optional <Board> optBoard = boardService.findById(boardId);
 
-
            if(!optLikeCheck.isPresent() || !optBoard.isPresent()){
                result = false;
            }else{
