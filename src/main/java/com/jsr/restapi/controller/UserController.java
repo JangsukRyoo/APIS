@@ -21,7 +21,6 @@ public class UserController {
 
         if(user != null){
             User newUser = new User();
-
             newUser.setUserName(user.getUserName());
             newUser.setNickName(user.getNickName());
             newUser.setAccountType(user.getAccountType());

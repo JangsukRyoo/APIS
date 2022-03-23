@@ -1,7 +1,4 @@
 package com.jsr.restapi.controller;
-
-
-
 import com.jsr.restapi.entity.Board;
 import com.jsr.restapi.entity.BoardLike;
 import com.jsr.restapi.entity.User;
@@ -30,6 +27,9 @@ public class BoardController {
 
     @Autowired
     UserService userService;
+
+    String classVariable;
+
 
     // 해더값을 통한 권한 체크성
     @RequestMapping(value="/authcheck", method= RequestMethod.POST)

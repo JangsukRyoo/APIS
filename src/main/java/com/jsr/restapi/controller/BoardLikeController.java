@@ -2,6 +2,7 @@ package com.jsr.restapi.controller;
 
 import com.jsr.restapi.entity.Board;
 import com.jsr.restapi.entity.BoardLike;
+import com.jsr.restapi.service.ARIA;
 import com.jsr.restapi.service.BoardLikeService;
 import com.jsr.restapi.service.BoardService;
 import org.springframework.beans.factory.annotation.Autowired;
