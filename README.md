@@ -1,5 +1,5 @@
-# Callbus_RESTAPI
-Coalbus_RESTAPI_ASSIGNMENT
+게시판 API
+
 
 실행 방법
 Src/main/ ava/com/jsr/restapi/에 위치한 RestapiApplication을 실행 시켜 서버를 띄웁니다.
