@@ -31,11 +31,11 @@
 
 BoardLikeController
 
-     LikeBoard : 게시글의 boardId와 header의 userId 값을 이용하여 디비를 조회 조회값이 없을 경우 좋아요 DB에 게시글 아이디와 이용자 아이디 추가, 게시글 DB에 좋아요수 추가
+     LikeBoard : 게시글의 boardId와 header의 userId 값을 이용하여 디비를 조회 조회값이 없을 경우 좋아요 DB에 게시글 아이디와 이용자 아이디 추가,
+     게시글 DB에 좋아요수 추가
      likeList : 자기 자신의 좋아요를 누른 글의 리스트입니다.
 
 UserController
-
      inserUser : 간단히 유저를 추가하는 기능입니다.
 
 
