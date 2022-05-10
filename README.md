@@ -1,14 +1,9 @@
 게시판 API
 
-
-실행 방법
-Src/main/ ava/com/jsr/restapi/에 위치한 RestapiApplication을 실행 시켜 서버를 띄웁니다.
-
-검증방식
-postman또는 RestApi 검증툴을 사용하여 
-기본 URL http://localhost:8080/에 추가하시는 방식으로 하시면됩니다.
-
-사용 DB maria DB를 사용하였습니다.
+검증방식 
+     postman 또는 RestApi 검증툴 사용 URL : http://localhost:8080/
+DB
+     Maria DB사용
 
  JPA Entity Mapping을 통하여 데이터베이스 연결만 해주시면 자동으로 생성됩니다.
  
@@ -34,5 +29,7 @@ BoardLikeController
 
 UserController.
 -inserUser : 간단히 유저를 추가하는 기능입니다.
+
+
 
 
