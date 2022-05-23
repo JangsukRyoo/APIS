@@ -4,7 +4,7 @@
 
       개발 환경 
 
-            Language: Java, JPA, SpringBoot
+            Language: Java, JPA, SpringBoot, RESTFUL API제작
             DBMS   : Maria DB
 
        DB table 
