@@ -28,7 +28,7 @@
                       전체 목록과 비교하여 일치한 글에 myLike컬럼에 true값을 줍니다. 추후 출력시 해당 값이 true면 따로 좋아요 표시.
                       mylike는 @Transient를 달아 디비에 저장은 되지 않습니다.
 
-           convertAccountType : 공인중개사, 임대인, 임차인의 아이디값을 한글로 번경하여 저장하기 위한 메소드 입니다.
+           convertAccountType : 공인중개사, 임대인, 임차인의 아이디값을 한글로 번경하여 저장하기 위한 메소드 
 
       BoardLikeController
 
@@ -38,7 +38,7 @@
 
       UserController
 
-           inserUser : 간단히 유저를 추가하는 기능입니다.
+           inserUser : 간단히 유저를 추가하는 기능
 
 <br>
 암호화 
