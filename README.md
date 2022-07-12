@@ -5,10 +5,9 @@
       개발 환경 
 
             Language: Java, JPA, SpringBoot, RESTFUL API제작
-            DBMS   : Maria DB
-
+            DB: Maria DB
+            
        DB table 
-
             Board : 게시판 테이블
             BoardLike : 게시판 좋아요 테이블  
             User  : 회원 테이블
