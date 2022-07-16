@@ -13,7 +13,6 @@
             User  : 회원 테이블
 
        BoardController
-
            authCheck : Header를 체크하여 request Header를 통하여 외부사용자("outUser")일 경우 false를 반환 게시글 작성 클릭시 활용 가능 
 
            insertBoard : 게시글을 등록합니다. user를 검색 먼저 사용자 인지 판단, 이후 사용자면 게시글 등록 JPA save 활용
@@ -30,16 +29,16 @@
            convertAccountType : 공인중개사, 임대인, 임차인의 아이디값을 한글로 번경하여 저장하기 위한 메소드 
 
       BoardLikeController
-
            LikeBoard : 게시글의 boardId와 header의 userId 값을 이용하여 디비를 조회 조회값이 없을 경우 좋아요 DB에 게시글 아이디와
            이용자 아이디 추가, 게시글 DB에 좋아요수 추가
            likeList : 자기 자신의 좋아요를 누른 글의 리스트입니다.
 
       UserController
-
            inserUser : 간단히 유저를 추가하는 기능
 <br>
 암호화 
+
+ Vue 와 연동 
 
 
 
